@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: solid red 1px; */
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(244, 244, 244);
+}
+
+.purple {
+    color: rgb(112, 55, 205);
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info img {
+    width: 100%;
+    min-width: 500px;
+}
+
+.forms {
+    width: 50%;
+    height: 60%;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+}
+
+.box {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.inputs h1 {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: #48465B;
+    letter-spacing: 5px;
+}
+
+.inputs h2 {
+    margin-bottom: 5%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    cursor: default;
+}
+
+.inputs input, select {
+    width: 50%;
+    height: 2.5em;
+    border-radius: 2px;
+    border: none;
+    font-size: 15px;
+    border-bottom: 2px solid rgb(179, 179, 179);
+    background-color: rgb(240, 240, 240);
+    transition: all 0.5s ease-in-out;
+}
+
+.inputs input:hover, select:hover {
+    border-bottom: 2px solid #685AFF;
+    transition: all 0.5s ease-in;
+}
+
+.inputs input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border-bottom: 2px solid #6b5ef9;
+    outline: 0;
+    transition: all 0.5s ease-in;
+}
+
+.inputs input {
+    padding: 5px;
+}
+
+.inputs label {
+    margin: 10px 0 3px 0;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.inputs label {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.inputs input[type="button"] {
+    margin-top: 2%;
+    background-color: #685AFF;
+    color: rgb(255, 255, 255);
+    transition: all 0.5s ease;
+    font-size: 15px;
+    border: 0;
+}
+
+.inputs input[type="button"]:hover {
+    background-color: #685affc5;
+    color: rgb(0, 0, 0);
+    transition: all 0.5s ease;
+    cursor: pointer
+}
+
+.cadastro {
+    text-decoration: none;
+    margin-top: 10px;
+    color: rgb(41, 41, 41);
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.other {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.other a:link {
+    width: 50px;
+    height: 50px;
+    margin: 20px 10px 0px;
+}
+
+.other a:link img {
+    width: 100%;
+    height: 100%;
+}
